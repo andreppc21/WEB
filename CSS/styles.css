@@ -27,16 +27,58 @@ html {
 
 /*imagem destaque*/
 
-
-/*.featured-image{
-    width: 100px;
-    height: 50px;
-}*/
-
-
-.img-bold {
-    width: 100px;
-    height: 50px;
+.featured-image{
+    text-align: center;
 }
+img {
+    width: 1000px;
+    height: 650px;
+}
+
+.historia-do-carro {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd ;
+
+}
+
+/*citações*/
+ .quotes-container {
+    padding: 30px;
+    background-color: #b4b4b4;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+ }
+
+ .quotes-container blockquote {
+    font-weight: bold;
+    font-size: 15px;
+ }
+ .quotes-container p {
+    font-style: italic;
+ }
+
+ /*curiosidades*/
+
+ .curiosidades {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+ }
+
+ .curiosidades li {
+    height: 30px;
+ }
+
+ figcaption {
+    font-weight: bold;
+    text-align: center;
+   
+ }
+
+
 
 
